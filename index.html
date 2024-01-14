@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Pizza Puce</title>
+        <link rel="icon" href="assets/img/logo.jpg">
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ===========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Pizza Puce</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#menu" class="nav__link active-link">Menu</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Notre histoire</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Nos services</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Recrutement</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Pizza Puce</h1>
+                        <h2 class="home__subtitle">Pizzas au feu de bois en livraison ou à emporter <br>depuis 1983</h2>
+                        <a href="#" class="button">Menu</a>
+                    </div>
+    
+                    <img src="assets/img/front_magasin.jpg" alt="" class="home__img">
+                </div>
+            </section>
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Nos services</span>
+                <h2 class="section-title">Our amazing services</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src = "assets/img/pizza.png" class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                            <defs>
+                            <clipPath id="clip0">
+                            <rect width="64" height="64" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </img>
+                        <h3 class="services__title">Des pizzas de qualité...</h3>
+                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src = "assets/img/beverages.png" class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                            </g>
+                            <defs>
+                            <clipPath id="clip0">
+                            <rect width="64" height="64" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </img>
+                        <h3 class="services__title">Mais pas que!</h3>
+                        <p class="services__description">Nous vous proposons des boissons, alcoolisées ou non, ainsi que des tiramisus faits maison pour accompagner votre repas</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src = "assets/img/livraison-de-pizza.png" class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="64" height="64" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </img>
+                        <h3 class="services__title">Livraison</h3>
+                        <p class="services__description">Le tout, livré à votre domicile afin que vous puissiez profiter de votre soirée entre amis, de votre film ou vous détendre en rentrant du travail</p>
+                    </div>
+                </div>
+            </section>
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">Notre histoire</span>
+                        <h2 class="section-title about__initial"> <br>Installés depuis 1983 à la Croix Rousse, et depuis XXXX à Tassin la Demi-Lune</h2>
+                        <p class="about__description">Nous avons à coeur de vous proposer des pizzas de qualité, cuites au feu de bois et utilisant des produits de choix</p>
+                        <a href="#" class="button">Explore history</a>
+                    </div>
+
+                    <img src="assets/img/Pizza-au-feu-de-bois.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Vous ne savez pas quoi choisir? Pourquoi ne pas vous laisser guider?</span>
+                <h2 class="section-title">Menu</h2>
+
+                <script>
+                    var  pizzalist = Array("Anchois","Moitié-Moitié (Anchois-Fromage)","Fromage","Oignons-Fromage","Jambon-Fromage","Chorizo-Fromage","Lardon-Fromage","Poivrons-Fromages","Mozarella","Champignons frais-Fromage","Merguez-Fromage","Roquefort","Sicilienne","Pissalidière","Bretonne","Lyonnaise","Bourguignonne","Norvégienne","Orientale","Bressane","Croix-Roussienne","Bayonnaise","Méditerranéenne","Quatre Saisons","Italienne","Savoyarde","Normande","Calabraise","Texane","Montagnarde","Provençale","Fermière","Océane","Beaujolaise","Cheyenne","Nouvelle","Paysanne","Alsacienne","Franc-comtoise","Tassilunoise","Forézienne")
+                    var randomPizza = pizzalist[Math.floor(Math.random()*pizzalist.length)];
+
+                    var p_alea = document.getElementById("pizza_alea");
+                    function get_random_pizza (list) {
+                            var randomPizza = list[Math.floor((Math.random()*list.length))];
+                            pizza_alea.innerText = randomPizza;
+                                }
+                 </script>
+
+                
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Nos Pizzas</h3>
+                        <a href="#0" onclick="location.href = 'menu.html';" class="button">Menu</a>
+                    </div>
+                
+                
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Nos boissons et desserts</h3>
+                        <a href="#0" onclick="location.href = 'menu.html';" class="button">Desserts</a>
+                    </div>
+                
+               
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 id = "pizza_alea" class="menu__name">Indécis? Laissez-vous guider....</h3>
+                        <a href="#0" onclick="get_random_pizza(pizzalist)" class="button">La Roulette à Pizza</a>
+                    </div>
+                
+                </div>
+                <!-- <button onclick="location.href = 'menu.html';" id="myButton" class="float-left submit-button" >Home</button> -->
+            </section>
+
+
+
+
+            <!--===== APP =======-->
+           <!-- <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">App</span>
+                        <h2 class="section-title app__initial">App is aviable</h2>
+                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
+                        <div class="app__stores">
+                            <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                        </div>
+                    </div>
+
+                    <img src="assets/img/movil-app.png" alt="" class="app__img">
+                </div>
+            </section> -->
+        
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial"></span>
+                        <h2 class="section-title contact__initial">Recrutement</h2>
+                        <p class="contact__description">Nous recherchons des livreurs sur le site de Tassin-la-Demi-Lune. N'hésitez pas à nous contacter, ou venir nous rendre visite, si cette offre vous intéresse. </br>
+                        Ce poste nécessite d'être âgé d'au moins 18 ans et la détention du permis AM (anciennement BSR).</br>
+                         Possibilités d'évolution au sein de l'entreprise sur le long terme.
+                        </p>
+                    </div>
+<!--
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact us now</a>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Pizza Puce</a>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Horaires</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Fast food</a></li>
+                        <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Croix-Rousse</h3>
+                    <ul>
+                        <li>5 Place du Commandant Arnaud</li>
+                        <li>Lyon 04</li>
+                        <li>69004</li>
+                        <li>04 72 00 00 40</li>
+                        <li>Lun-Sam: 11h30 - 14h00 / 18h00 -23h00</li>
+                        <li>Dim: 18h00 -23h00</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Tassin-la-Demi-Lune</h3>
+                    <ul>
+                        <li>46 Avenue Victor Hugo</li>
+                        <li>Tassin-la-Demi-Lune</li>
+                        <li>69160</li>
+                        <li>04 72 59 09 09</li>
+                        <li>Lun-Sam: 11h30 - 14h00 / 18h00 -22h00</li>
+                        <li>Dim: 18h00 -22h00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2023 Pizza Puce. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
